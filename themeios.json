@@ -4,8 +4,8 @@
   "description": "Credits to Zerthox for the better discord theme",
   "authors": [
     {
-      "name": "Madhav",
-      "id": "757530324686340197"
+      "name": "Pieplup",
+      "id": "194195135288836096"
     }
   ],
   "theme_color_map": {
@@ -153,7 +153,7 @@
   },
   "background": {
     "blur": 0,
-    "url": "https://cdn.discordapp.com/attachments/1088658380811419659/1120452948703588522/Empoleon_background_clean_Dark.jpg",
+    "url": "https://cdn.discordapp.com/attachments/1088658380811419659/1120454838170431518/Empoleon_background_clean_Dark_ios.jpg",
     "alpha": 0.6
   }
 }
