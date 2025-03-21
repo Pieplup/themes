@@ -1,11 +1,11 @@
 /**
- * @name  Pieplup's Theme
+ * @name Pieplup's Theme
  * @author ClearVision Team
  * @version 6.9.0
  * @description Highly customizable theme for BetterDiscord.
  * @source https://github.com/ClearVision/ClearVision-v6
  * @website https://clearvision.github.io
- * @invite dHaSxn3
+ * @invite h9xMAdG7BR6
  */
 
 /* Credits to Zerthox for making the original theme. */
@@ -16,16 +16,15 @@
 /* SETTINGS */
 :root {
   /* ACCENT COLORS */
-  --main-color: #2780e6; /* main accent color (hex, rgb or hsl) [default: #2780e6] */
+  --main-color:  rgba(39,145,200,1); /* main accent color (hex, rgb or hsl) [default: #2780e6] */
   --hover-color: #1e63b3; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
-  --success-color: #43b581; /* success accent color (hex, rgb or hsl) [default: #43b581] */
-  --danger-color: #982929; /* danger accent color (hex, rgb or hsl) [default: #982929] */
-  --url-color: var(--main-color); /*The color of url links [default: var(--main-color)]*/
+  --success-color:  rgba(67,156,181,1); /* success accent color (hex, rgb or hsl) [default: #43b581] */
+  --danger-color:  rgba(152,123,41,1); /* danger accent color (hex, rgb or hsl) [default: #982929] */  --url-color: var(--main-color); /*The color of url links [default: var(--main-color)]*/
 
   /* STATUS COLORS */
-  --online-color: #43b581; /* online status color (hex, rgb or hsl) [default: #43b581] */
+  --online-color:  rgba(67,172,255,1); /* online status color (hex, rgb or hsl) [default: #43b581] */
   --idle-color: #faa61a; /* idle status color (hex, rgb or hsl) [default: #faa61a] */
-  --dnd-color: #982929; /* dnd status color (hex, rgb or hsl) [default: #982929] */
+  --dnd-color:  rgba(152,131,41,1); /* dnd status color (hex, rgb or hsl) [default: #982929] */
   --streaming-color: #593695; /* streaming status color (hex, rgb or hsl) [default: #593695] */
   --offline-color: #808080; /* offline/invisible status color (hex, rgb or hsl) [default: #808080] */
 
@@ -40,7 +39,7 @@
   /* APP BACKGROUND */
   --background-shading: 100%; /* app background shading (0 for complete smoothness) [default: 100%] */
   --background-overlay: rgba(0, 0, 0, 0.6); /* app background overlay color/gradient [default: rgba(0, 0, 0, 0.6)] */
-  --background-image: url(https://clearvision.github.io/images/sapphire.jpg); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
+  --background-image: url(https://i.imgur.com/bgIyknk.jpeg); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
   --background-position: center; /* app background position [default: center] */
   --background-size: cover; /* app background size [default: cover] */
   --background-repeat: no-repeat; /* app background repeat [default: no-repeat] */
@@ -54,7 +53,7 @@
   --background-blur: 0px; /* app background blur [default: 0px] */
 
   /* HOME BUTTON ICON */
-  --home-icon: url(https://clearvision.github.io/icons/discord.svg); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/
+  --home-icon: url(https://i.imgur.com/3pfcMlL.png); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/
   --home-position: center; /* home button icon position [default: center] */
   --home-size: 40px; /* home button icon size [default: 40px] */
 
