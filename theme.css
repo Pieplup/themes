@@ -15,8 +15,6 @@
 @import url("https://clearvision.github.io/ClearVision-v7/main.css");
 @import url("https://clearvision.github.io/ClearVision-v7/vencord.css");
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css');
-/* @import url("https://raw.githubusercontent.com/Pieplup/oldcord-clearvision/refs/heads/main/src/components/redesign.css"); */
-/* @import url("https://raw.githubusercontent.com/Pieplup/oldcord-clearvision/refs/heads/main/src/components/other.css"); */
 
 
 
@@ -118,10 +116,6 @@
 .title__85643 {
 	display: none !important;
 }
-/* Remove Play Again on DMs */
-.itemContainer__675e5, .headerContainer__675e5  {
-    display: none;
-}
 /* Show full bio on user popout */
 .descriptionClamp_f5f93a {
   line-clamp: unset;
@@ -173,45 +167,17 @@ div[aria-label="User Settings"] > div[aria-label="Gift Inventory"] + div[class^=
 [class^=header_]:has(+ [class^=premiumTab_]),
 /* Profiles: Try out Nitro! box */
 div[class^="premiumFeatureBorder"] { display: none; }
-/* Fixbar */
-/*body:has(.winButtons_c38106) {
-    .toolbar__9293f .iconWrapper__9293f:nth-last-of-type(3) {
-        margin-right: 3	7px!important;
-    }
-    .trailing_c38106 {
-        z-index: 101;
-        .recentsIcon_c99c29 {
-            position: absolute;
-            top: 11px;
-            right: 265px;
-
-        }
-    }
-    .search__49676 {
-        margin-right: 110px!important;
-        .searchBar__97492 {
-            width: 130px!important;
-        }
-    }
-    .content_c48ade {
-        translate: 0 -35px;
-        margin-bottom: -35px!important;
-    }
-    .winButtons_c38106 {
-        margin-top: 0px;
-        margin-right: 0px;
-    }
-}
-[href*="/support"] {display: none}
-}/*
-/* Fixbar fix */
-/*    .content_9293f {
-        translate: 0 -35px;
-        margin-bottom: -35px!important;
-    } */
 /* Remove Start conversation with friends in DMs list */
 .searchBar__35e86 {
     display: none !important;
+}
+/* Remove Play Again on DMs */
+.itemContainer__675e5, .headerContainer__675e5  {
+    display: none;
+}
+/* Fix extra seperation on due ot previoust wo commands */
+.container__675e5 {
+	display: none;
 }
 /*text type field*/
 [class^="channelBottomBarArea"] [class^="scrollableContainer"]{
@@ -224,7 +190,7 @@ div[class^="premiumFeatureBorder"] { display: none; }
 .unread__2ea32 { /* Channel Unread Dot */
 	background-color: var(--main-color) !important;
 }
-/*Transparent Channel Header*/
+/*My Profile*/
 [aria-label="Channel Header"] {
     background: var(--background-shading) !important;
 }
