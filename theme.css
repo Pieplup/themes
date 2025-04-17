@@ -124,18 +124,18 @@
 .maxBioHeight_f5f93a {
   max-height: unset;
 }
-/* Pre-Refresh User/Settings p */
-.guilds_c48ade {
-  --custom-app-panels-height: 0px !important;
-}
-.panels_c48ade {
-  left: var(--custom-guild-list-width) !important;
-  width: calc(100% - var(--custom-guild-list-width)) !important;
-}
 /* Round servers icon */
 .icon__6e9f8 {
   border-radius: 50%;
 }
+/* Remove Play Again on DMs */
+.itemContainer__675e5, .headerContainer__675e5  {
+    display: none;
+}
+/* Fix extra seperation on due ot previoust wo commands */
+/*.container__675e5 {
+	display: none !important;
+}*/
 /* Return Chatbox Icons to pre reresh*/
 .visual-refresh button[aria-label="Open sticker picker"], button[aria-label="Send a gift"], button[aria-label="Apps"] {
   display: none;
@@ -171,18 +171,6 @@ div[class^="premiumFeatureBorder"] { display: none; }
 .searchBar__35e86 {
     display: none !important;
 }
-/* Remove Play Again on DMs */
-.itemContainer__675e5, .headerContainer__675e5  {
-    display: none;
-}
-/* Fix extra seperation on due ot previoust wo commands */
-.container__675e5 {
-	display: none;
-}
-/*text type field*/
-[class^="channelBottomBarArea"] [class^="scrollableContainer"]{
-    background: var(--background-shading);
-}	
 /* Unread Dot recoloring */
 .item__58105 { /* Server Unread dot */
 	background-color:  var(--main-color) !important;
@@ -190,12 +178,57 @@ div[class^="premiumFeatureBorder"] { display: none; }
 .unread__2ea32 { /* Channel Unread Dot */
 	background-color: var(--main-color) !important;
 }
-/*My Profile*/
-[aria-label="Channel Header"] {
-    background: var(--background-shading) !important;
+/* Remove Avatar Decorations */
+/*.avatarDecoration__44b0c {
+	display: none;
+}*/
+/* Remove Profile Effects */
+/*.profileEffects__01370 {
+	display: none;
+}*/
+/* Member List */
+.container_c8ffbb {
+	background-color: rgba(0, 0, 0, 0.25) !important;
 }
-/* server list icon size */
+/* DM User Profile */
+.inner_c0bea0 {
+	background-color: rgba(0, 0, 0, 0.4) !important;
+}
+//* Transcripts */ 
+.topicsPill_0f481 barBase_0f481 containerMarginTop_0f481 {
+	background-color: var(--background-shading) !important;
+}
+/* Titlebar */ 
+.title_c38106 {
+	background-color: rgba(0, 0, 0, 0.4);
+}
+/* Channel Header*/
+[class^="subtitleContainer"] [class^="title"]{
+    background-color: rgba(0, 0, 0, 0.4);
+}
+/* Textbox */
+[class^="channelBottomBarArea"] [class^="scrollableContainer"]{
+    background-color: rgba(0, 0, 0, 0.25);
+}	
+/* Serverlist Icon Size */
 :root {
   --columns: 1;
   --guildsize: 57; /* use the size you want */
+}
+/* USER PANEL */
+/* Old User Panel*/
+.guilds_c48ade {
+  --custom-app-panels-height: 0px !important;
+}
+.panels_c48ade {
+  left: var(--custom-guild-list-width) !important;
+  width: calc(100% - var(--custom-guild-list-width)) !important;
+}
+/* Activity panel border */
+.visual-refresh .panel__5dec7 {
+    border-bottom: 1px solid rgba(225, 240, 253, 0.123);
+}
+/* Voice chat panel border */
+.wrapper_e131a9 {
+    border-bottom: 1px solid rgba(225, 240, 253, 0.123);
 }
